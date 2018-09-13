@@ -1,0 +1,72 @@
+﻿h2 {
+    position: absolute;
+    top: 460px;
+    left: 0;
+    width: 100%;
+}
+
+    h2 span {
+        color: white;
+        font: bold 24px/100px Helvetica, Sans-Serif;
+        letter-spacing: -1px;
+        background: rgb(128, 128, 128, 0.7);
+        padding: 10px;
+    }
+
+body, html {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+
+.flexConteiner {
+    background: #fff;
+    align-items: center;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding: 5px;
+}
+
+    .flexConteiner div {
+        cursor: pointer;
+        width: 100px;
+        margin: 5px;
+        background: #fff;
+        transition: background 0.3s;
+    }
+
+        .flexConteiner div hr {
+            background: #000;
+            width: 0;
+            height: 2px;
+            transition: width 0.5s, opacity 0.1s;
+            opacity: 0;
+        }
+
+
+        .flexConteiner div:hover hr {
+            width: 100%;
+            opacity: 1;
+        }
+
+*, *:after, *:before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    transition: .5s ease-in-out;
+}
+
+.Article {
+    margin: 30px auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    height: inherit;
+}
+    .Article div {
+        max-width: 1160px;
+        width: 100%;
+        text-align: center;
+    }

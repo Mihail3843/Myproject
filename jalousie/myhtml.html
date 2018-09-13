@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link rel="stylesheet" href="Mycss.css">        
+    </head>
+    <body>
+    <div style="width: 100%">
+        <div id ="main_image_stack"  style="margin-top: 100px; line-height: 1px;">
+              <div class="flipconteyner">
+                  <div  class="flipper">
+                      <img class="font" src="изображение для эффекта жалюзи/image_part_001.png" />
+                      <img class="back" src="изображение для эффекта жалюзи/second group frame/image_001.png"/> 
+                  </div>                                                         
+              </div>             
+                  <div class="flipconteyner">
+                    <div  class="flipper">
+                      <img class="font" src="изображение для эффекта жалюзи/image_part_002.png"/>
+                      <img class="back" src="изображение для эффекта жалюзи/second group frame/image_002.png"/> 
+                    </div>              
+              </div>  
+              <div class="flipconteyner">
+                  <div class="flipper">
+                      <img class="font" src="изображение для эффекта жалюзи/image_part_003.png"/>
+                      <img class="back" src="изображение для эффекта жалюзи/second group frame/image_003.png"/> 
+                  </div>
+              </div>  
+                <div class="flipconteyner">
+                  <div class="flipper">
+                      <img  class="font" src="изображение для эффекта жалюзи/image_part_004.png"/>
+                      <img class="back"  src="изображение для эффекта жалюзи/second group frame/image_004.png"/> 
+                  </div>
+              </div>  
+                <div class="flipconteyner">
+                  <div class="flipper">
+                      <img class="font" src="изображение для эффекта жалюзи/image_part_005.png"/>
+                      <img class="back" src="изображение для эффекта жалюзи/second group frame/image_005.png"/> 
+                  </div>
+              </div>  
+                <div class="flipconteyner">
+                  <div class="flipper">
+                      <img  class="font" src="изображение для эффекта жалюзи/image_part_006.png" />
+                       <img class="back"  src="изображение для эффекта жалюзи/second group frame/image_006.png"/> 
+                  </div>
+              </div>  
+                <div class="flipconteyner">
+                  <div class="flipper">
+                      <img  class="font" src="изображение для эффекта жалюзи/image_part_007.png"/>
+                       <img class="back"  src="изображение для эффекта жалюзи/second group frame/image_007.png"/> 
+                  </div>
+              </div>  
+                <div class="flipconteyner">
+                  <div class="flipper">
+                      <img  class="font" src="изображение для эффекта жалюзи/image_part_008.png"/>
+                       <img class="back"  src="изображение для эффекта жалюзи/second group frame/image_008.png"/> 
+                  </div>
+              </div>  
+                <div class="flipconteyner">
+                  <div class="flipper">
+                      <img  class="font" src="изображение для эффекта жалюзи/image_part_009.png"/>
+                       <img class="back"  src="изображение для эффекта жалюзи/second group frame/image_009.png"/> 
+                  </div>
+              </div>  
+                <div class="flipconteyner">
+                  <div  class="flipper">
+                      <img  class="font" src="изображение для эффекта жалюзи/image_part_010.png" />
+                       <img class="back"  src="изображение для эффекта жалюзи/second group frame/image_010.png"/> 
+                  </div>
+              </div>   
+        </div>        
+    </div>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script>
+         $('.flipconteyner').hover( function() {              
+         	 if($(this).find('.flipper').hasClass('flip'))
+             { 
+		       $(this).find('.flipper').removeClass('flip')
+             }
+             else
+             {
+                $(this).find('.flipper').addClass('flip')
+             }
+            }, function(){})
+        </script>
+    </body>
+</html> 

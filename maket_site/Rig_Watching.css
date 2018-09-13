@@ -1,0 +1,192 @@
+﻿    .table_blur {
+        display: block;
+        background: #f5ffff;
+        border-collapse: collapse;
+        text-align: center;
+    }
+
+        .table_blur th {
+            border-top: 1px solid #777777;
+            border-bottom: 1px solid #777777;
+            box-shadow: inset 0 1px 0 #999999, inset 0 -1px 0 #999999;
+            background: linear-gradient(#2e44b1, #569fc8);
+            color: white;
+            padding: 10px 15px;
+            position: relative;
+        }
+
+        .table_blur td {
+            border: 1px solid #e3eef7;
+            padding: 10px 15px;
+            position: relative;
+        }
+
+    tbody tr:hover {
+        background: #59a4b1;
+        color: darkblue;
+    }
+
+    .Search_div input#search {
+        width:0px;
+        background: #e3eef7;
+        font-size: 10pt;
+        color: #fff;
+        height: inherit;
+        float: right;
+        border: none;
+
+        -webkit-transition: width .55s ease;
+        -moz-transition: width .55s ease;    
+        -o-transition: width .55s ease;
+        transition: width .55s ease;
+    }
+
+    .Search_div {    
+        height: 32px;
+        white-space: nowrap;
+        position: relative;
+        background: #373490;        
+    }
+
+        .Search_div input#search:focus, .container-2 input#search:active {
+            outline: none;
+            width: 300px;
+        }
+
+        .Search_div:hover input#search {
+            width: 300px;
+        }
+
+        .Search_div:hover span{
+            color: #000000;
+        }
+
+        .TableInfo {
+            border-color: aqua;
+        }
+li {
+    list-style-type: none
+}
+
+body, html {
+    height: 110%;
+    width: 100%;
+    padding: 0;
+}
+.main_acide { 
+    display: block;
+    position: fixed;
+    min-height: 100%;
+    top: 0;
+    background: rgb(34, 45, 50);    
+    left:-190px;
+    width: 230px;    
+    transition: left .2s;
+    z-index: 4;
+    opacity: 0.99;
+}
+
+.main_acide section
+{
+    padding-top: 100%;
+    float: left;
+}
+
+.main_acide section div
+{
+    background:  #100f0f;
+}
+.main_acide section div span
+{
+    color:rgb(75, 100, 111);
+    font-size:16px;
+    font-family: Roboto,sans-serif;
+    vertical-align: super
+}
+
+.main_acide section ul
+{
+    margin-top:0; 
+    margin-bottom: 0
+}
+
+.main_acide section ul span
+{
+    color:rgb(184, 199, 206);
+    font-size:14px;
+    font-family: Roboto,sans-serif; 
+    vertical-align: super
+}
+
+.signal_hide_menu {
+ display: none   
+}
+
+.btn-menu {      
+    padding-top:1%;
+    padding-left:10px;
+    display: block;
+    position:  fixed;        
+    left: -4px;
+    padding-top: 14%;
+    cursor: pointer;
+    transition: left .23s;
+    z-index: 5;
+    width: 25px;
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+}
+
+    .btn-menu span 
+{
+        cursor: pointer;
+        display: block;
+        height: 5px;
+        background-color: #fff;
+        margin: 5px 0 0;
+        transition: all .1s linear .23s;
+        position: relative;
+    }
+
+        .btn-menu span.first {
+            margin-bottom: 9px;
+            -webkit-transform: rotate(45deg);
+        }
+        .btn-menu span.second {
+                margin-top: 9px;
+                -webkit-transform: rotate(-45deg);
+            }
+
+.main_acide section ul li {
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+.main_acide section ul li:hover {
+    background: #3777ea
+}
+
+.signal_hide_menu:checked ~ .btn-menu {
+  left: 190px;
+}
+
+.signal_hide_menu:checked ~ .main_acide {   
+    left: 0px;
+}
+
+.signal_hide_menu:checked ~ .btn-menu span.first {
+    -webkit-transform: rotate(-45deg);    
+}
+
+.signal_hide_menu:checked ~ .btn-menu span.second {
+    -webkit-transform: rotate(45deg);
+}
+
+input[type=text]::-ms-clear {  display: none; width : 0; height: 0; }
+input[type=text]::-ms-reveal {  display: none; width : 0; height: 0; }
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+

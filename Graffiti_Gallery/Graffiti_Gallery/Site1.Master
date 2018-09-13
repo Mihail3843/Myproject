@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Graffiti_Gallery.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="stylesheet"  href="css_style/main_form.css" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="jsilo/wow.min.js"></script>     
+            <script>
+                new WOW().init();
+            </script>
+</head>
+<body>    
+         <div align="center" style="height: 8%;">
+            <img src="image/%D1%82%D0%B8%D1%82%D1%83%D0%BB%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%20.jpg"
+                 style="height: 100%; width: auto;"/>
+        </div>
+        <div style="height: 5%; background: #000">
+           <div style="float: right; margin-right: 10px">
+               <img style ="margin-right: 10px; float: left;"  src="image/image_headerMenu/header_menu_facebook.png"/>   
+               <img style ="" src="image/image_headerMenu/header_menu_instagramm.png"/>   
+               <img style ="" src="image/image_headerMenu/header_menu_skype.png"/>   
+               <img style ="" src="image/image_headerMenu/header_menu_twitter.png"/>   
+               <img style ="" src="image/image_headerMenu/header_menu_vk.png"/>   
+           </div>
+        </div>
+        <header class="flexConteiner">        
+                <div align="center" >
+                    <span style="color: #000;  font-family:sans-serif;">главная</span>
+                    <hr style="background: #000; height:3px; "/>
+                </div>
+                <div  align="center">
+                    <span style="color: #000; font-family:sans-serif;">граффити</span>
+                     <hr style="background: #000; height:3px; "/>
+                </div>
+                <div  align="center">
+                    <span style="color: #000; font-family:sans-serif;">о проекте</span>
+                     <hr style="background: #000; height:3px; "/>
+                </div>
+                <div  align="center">
+                    <span style="color: #000;  font-family:sans-serif;">москва</span>
+                     <hr style="background: #000; height:3px; "/>
+                </div>
+                <div  align="center">
+                    <span style="color: #000;  font-family:sans-serif;">галерея</span>
+                     <hr style="background: #000; height:3px; "/>
+                </div>        
+        </header>
+        <hr style="background:#000"/>
+
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+                </asp:ContentPlaceHolder>
+            </div>
+ <div style="display: block ;height: 100px; clear: both;">
+        
+    </div>
+        <footer style="background: #000; height:80px;">                  
+    </footer>
+</body>
+</html>

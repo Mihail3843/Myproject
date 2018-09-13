@@ -1,0 +1,119 @@
+h2 {
+    position: absolute;
+    top: 460px;
+    left: 0;
+    width: 100%;
+}
+
+    h2 span {
+        color: white;
+        font: bold 24px/100px Helvetica, Sans-Serif;
+        letter-spacing: -1px;
+        background: rgb(128, 128, 128, 0.7);
+        padding: 10px;
+    }
+
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+}
+
+.flexConteiner {
+    background: #fff;
+    align-items: center;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+    .flexConteiner div {
+        cursor: pointer;
+        width: 100px;
+        margin: 5px;
+        background: #fff;
+        transition: background 0.3s;
+    }
+
+.flexConteiner div hr {
+    background: #000;
+    width: 0;
+    height: 2px;
+    transition: width 0.5s, opacity 0.1s;
+    opacity: 0;
+}
+
+
+.flexConteiner div:hover hr {
+    width: 100%;
+    opacity: 1;
+}
+
+*, *:after, *:before {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	transition: .5s ease-in-out;
+}
+
+.main_article
+{
+    background: #fff;
+    border-radius: 10p;
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: 0 10px 6px -6px #777;
+    text-align: center
+}
+
+.article_header
+{
+    height: 6em;
+    background: #000;
+    border-radius: 35px 35px 0 0;
+}
+
+.article_header span
+{
+    color: #fff;
+    font-family: sans-serif;     
+}
+
+.span_1
+{
+    font-size: 38px;
+}
+ .font_level2
+{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.description_person
+{
+    width: 100%;    
+}
+
+.description_person div img
+{   
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.description_person .param
+{
+    display: inline-block;
+    padding-left: 40px;    
+    width: auto; 
+    text-align: left;
+    margin-top: 15px;
+    vertical-align: top; 
+}
+
+
+
+
